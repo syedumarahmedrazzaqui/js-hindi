@@ -27,3 +27,11 @@ function returnSecondValue(getArray){
 
 // console.log(returnSecondValue(myNewArray));
 console.log(returnSecondValue([300,1000, 349,1399]));
+
+// my code 
+function asehi(myName) {
+    return myName
+}
+
+const myName = "zaid Razzaqui"
+console.log(`Youe name is : ${myName}`);

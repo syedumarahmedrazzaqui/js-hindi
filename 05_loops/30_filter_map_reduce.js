@@ -44,6 +44,8 @@ const books = [
 
 // const userbooks = books.filter((bk) => bk.genre === 'history')
 // const userbooks = books.filter((bk) => {return bk.publish >= 2000})
+
+// filter is used instead of while loop
 const userbooks = books.filter((bk) => {
     return bk.publish >= 2000 && bk.genre === 'history'
 

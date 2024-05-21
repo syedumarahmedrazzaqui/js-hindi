@@ -45,7 +45,7 @@ const books = [
 // const userbooks = books.filter((bk) => bk.genre === 'history')
 // const userbooks = books.filter((bk) => {return bk.publish >= 2000})
 
-// filter is used instead of while loop
+// filter is used instead of while loop and for each loop
 const userbooks = books.filter((bk) => {
     return bk.publish >= 2000 && bk.genre === 'history'
 
@@ -53,7 +53,7 @@ const userbooks = books.filter((bk) => {
 console.log(userbooks);
 
 
-// Maps // we can use map method instead of foreach loop 
+// Maps // this method will return us new array
 
 
 const myNumbers = [1,2,3,4,5,6,7,8,9,10]

@@ -70,6 +70,8 @@ console.log(newnums);
 
 // reduce 
 
+// this method is used to create shopping cart 
+
 
 const array1 = [1,2,3]
 

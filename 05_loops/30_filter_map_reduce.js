@@ -97,5 +97,5 @@ const shoppingCart = [
     },
 ]
 
-const pricetopay = shoppingCart.reduce( (acc, prc) => acc + item.price,0 )
+const pricetopay = shoppingCart.reduce( (acc, prc) => acc + prc.price,0 )
 console.log(pricetopay);
